@@ -1,6 +1,6 @@
 # Amigo Secreto 🎁
 
-Um script de console em Python para organizar sorteios de Amigo Secreto (ou "Secret Santa") de forma fácil e automatizada. Ele gerencia a lista de participantes, realiza o sorteio garantindo que ninguém tire a si mesmo, e envia o resultado para cada um por e-mail.
+Um script de console em Python para organizar sorteios de Amigo Secreto de forma fácil e automatizada. Ele gerencia a lista de participantes, realiza o sorteio garantindo que ninguém tire a si mesmo, e envia o resultado para cada um por e-mail.
 
 ## Funcionalidades
 
