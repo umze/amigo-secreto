@@ -18,8 +18,8 @@ Um script de console em Python para organizar sorteios de Amigo Secreto (ou "Sec
 
 1.  **Clone o repositório ou baixe os arquivos:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone https://github.com/umze/amigo-secreto.git
+    cd amigo-secreto
     ```
 
 2.  **Instale as dependências:**
