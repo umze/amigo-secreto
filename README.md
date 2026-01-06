@@ -12,10 +12,10 @@ Um script de console em Python para organizar sorteios de Amigo Secreto de forma
 
 ## Requisitos
 
-- Python 3.6 ou superior
+- Python 3.6 ou superior (caso você baixe direto do código fonte)
 
 ## Instalação
-### Direto pelo código:
+### Código fonte:
 1.  **Clone o repositório ou baixe os arquivos:**
     ```bash
     git clone https://github.com/umze/amigo-secreto.git
@@ -26,6 +26,10 @@ Um script de console em Python para organizar sorteios de Amigo Secreto de forma
     É recomendado criar um ambiente virtual (virtualenv) primeiro.
     ```bash
     pip install -r requirements.txt
+    ```
+3. **Execute o script a partir do seu terminal:**
+    ```bash
+    python main.py
     ```
 ### Executável:
 Vá na aba "releases" do repositório, baixe o arquivo de acordo com o sistema operacional e abra ele. Simples!
@@ -47,25 +51,10 @@ Devido às políticas de segurança do Google, você não pode usar a sua senha 
 
 Agora, no programa:
 
-1.  Execute o script pela primeira vez: `python main.py`
+1.  Execute o programa
 2.  Escolha a opção **3 - Configurar/testar email**.
 3.  Escolha a opção **1 - Definir email** e insira seu endereço do Gmail.
 4.  Escolha a opção **2 - Definir senha (senha de app)** e cole a **senha de 16 caracteres** que você gerou.
+5.  Teste na opção **3 - Testar login SMTP**.
 
-Essas informações serão salvas em um arquivo `.env` no mesmo diretório.
-
-## Como Usar
-
-Execute o script a partir do seu terminal:
-
-```bash
-python main.py
-```
-
-O menu principal aparecerá:
-
-1.  **Criar lista de amigos**: Adicione ou remova os participantes do sorteio. Para cada amigo, você precisará fornecer um nome e um e-mail válido.
-2.  **Sortear e enviar emails**: Inicia o sorteio e envia os resultados para todos os participantes da lista.
-3.  **Configurar/testar email**: Permite definir ou atualizar suas credenciais de e-mail e testar a conexão com o servidor SMTP.
-4.  **Resetar lista de amigos**: Apaga completamente a lista de amigos salva. **Esta ação não pode ser desfeita.**
-5.  **Sair**: Fecha o programa.
+Essas informações serão salvas em um arquivo `.env` na pasta de dados do seu sistema operacional (a "appdata").
