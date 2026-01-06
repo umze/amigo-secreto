@@ -27,6 +27,8 @@ Um script de console em Python para organizar sorteios de Amigo Secreto de forma
     ```bash
     pip install -r requirements.txt
     ```
+### Executável:
+Vá na aba "releases" do repositório, baixe o arquivo de acordo com o sistema operacional e abra ele. Simples!
 
 ## Configuração do E-mail
 
