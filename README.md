@@ -15,7 +15,7 @@ Um script de console em Python para organizar sorteios de Amigo Secreto de forma
 - Python 3.6 ou superior
 
 ## Instalação
-
+### Direto pelo código:
 1.  **Clone o repositório ou baixe os arquivos:**
     ```bash
     git clone https://github.com/umze/amigo-secreto.git
