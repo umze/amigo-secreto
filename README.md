@@ -1,25 +1,24 @@
-# Amigo Secreto 🎁
+# Amigo Secreto
 
-Um script de console em Python robusto para organizar sorteios de Amigo Secreto. Ele gerencia participantes, realiza o sorteio de forma cíclica (garantindo que ninguém tire a si mesmo) e envia os resultados via email com um layout HTML elegante e moderno.
+Um script em Python para organizar sorteios de Amigo Secreto. Ele gerencia participantes, realiza o sorteio de forma cíclica (garantindo que ninguém tire a si mesmo) e envia os resultados via email com um layout HTML elegante e moderno.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Persistência de Dados**: Salva a lista de amigos e configurações em pastas de sistema, garantindo que seus dados não sejam perdidos ao mover o script de pasta.
-- **Sorteio Cíclico (Algoritmo de Sattolo)**: Garante matematicamente que ninguém tire a si mesmo e que o sorteio forme um ciclo único, onde todos presenteiam e são presenteados sem repetições.
 - **Envio de emails em HTML**: Envia emails em HTML, tendo um visual bonito e totalmente personalizavel!
 - **Segurança**: Gerenciamento de credenciais via variáveis de ambiente (`.env`) persistidas de forma segura no sistema.
 - **Interface Rica**: Interface de terminal colorida e organizada utilizando a biblioteca `rich`.
 
 ---
 
-## 🚀 Instalação e Execução
+## Instalação e Execução
 
 ### 1. Requisitos
 - Python 3.8 ou superior.
 - Uma conta Gmail com **Verificação em Duas Etapas** ativa.
 
 ### 2. Preparação do Ambiente
-Instale as dependências necessárias via pip:
+Instale as dependências necessárias via pip (é recomendado criar uma venv).
 ```bash
 pip install rich python-dotenv
 ```
@@ -32,7 +31,7 @@ python main.py
 
 ---
 
-## 📧 Configuração do email (Gmail)
+## Configuração do email (Gmail)
 
 O script utiliza o servidor SMTP do Gmail. Devido às políticas de segurança do Google, você **não pode** usar sua senha normal.
 
@@ -41,13 +40,11 @@ O script utiliza o servidor SMTP do Gmail. Devido às políticas de segurança d
 3. **Gerar**: Escolha um nome (ex: "Amigo Secreto") e copie o código de 16 dígitos.
 4. **No Programa**:
 * Vá em `3 - Configurar/testar email`.
-* Opção `1`: Digite seu email.
-* Opção `2`: Cole a senha de 16 dígitos.
-* Opção `3`: Teste a conexão.
+* Digite cada dado no programa e teste a conexão, caso dê certo, será possível realizar o sorteio
 
 ---
 
-## ❓ FAQ (Perguntas Frequentes)
+## FAQ (Perguntas Frequentes)
 
 ### Onde os meus dados ficam salvos?
 
